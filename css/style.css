@@ -1,0 +1,87 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #0a143a; /* цвет текста */
+}
+
+.header {
+  max-width: 1146px; /* максимальная ширина */
+  margin: auto; /*автовыравнивание посередине*/
+  padding-top: 30px;
+}
+
+.navbar {
+  display: flex; /* делаем гибкий блок */
+  align-items: center; /* выравниваем по горизонтали по центру */
+  justify-content: space-between; /* разбросать элементы по краям */
+  margin-bottom: 24px;
+}
+
+.navbar-menu {
+  margin-right: auto;
+}
+
+.menu {
+  list-style: none; /* убираем маркеры в списке */
+  margin: 0;
+  padding: 0 0 0 21px;
+  padding-right: 21px;
+  display: flex;
+}
+
+/* для всех пунктов меню, кроме последнего */
+.menu-item:not(:last-child) {
+  margin-right: 14px;
+}
+
+.menu-link {
+  text-decoration: none; /* отключаем подчеркивание ссылок */
+  color: inherit; /* берем цвет текста от (body) */
+}
+
+/* Вход и регистрация \ Объявление */
+.button {
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button-link {
+  color: inherit;
+}
+
+.button-primary {
+  background: #256eeb; /* цвет кнопки */
+  border-radius: 5px; /* скругление углов кнопки */
+  color: #ffffff;
+  padding: 10px 15px;
+}
+
+.search-panel {
+  height: 50px;
+  background: #256eeb;
+  border-radius: 5px;
+  display: flex;
+  padding: 3px;
+}
+
+.search-input {
+  flex-grow: 1; /* растягивается на всё свободное место */
+  background: #ffffff;
+  border-radius: 5px;
+  border: none; /* убрать обводку поля ввода */
+  padding-left: 22px;
+}
+
+.search-button {
+  background: #256eeb;
+  border: none;
+  color: white;
+  margin: 0 17px 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search-button-text {
+  margin-left: 5pxs;
+}
