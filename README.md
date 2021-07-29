@@ -6,3 +6,5 @@
 ### Технологии в проекте
 - HTTP
 - CSS
+- Normalize
+- JavaScript
